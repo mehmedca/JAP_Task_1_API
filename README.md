@@ -8,7 +8,7 @@
 <h2>Some of the guidelines in order to start up the project below:</h2>
 <ul> 
     <li>
-        PostgreSQL was used as a DB provider. So, after the initial clone of the project, make sure to adjust the connection string which is located in appsettings.json, then run  <span syle="font-weight: 600; color: #84a0b8">"update-database"</span> in npm console in order to create a new db on your machine.
+        PostgreSQL was used as a DB provider. So, after the initial clone of the project, make sure to adjust the <b>connection string</b> which is located in <b>appsettings.json</b> file, then run  <span syle="font-weight: 600; color: #84a0b8">"update-database"</span> in npm console in order to create a new db on your machine. Test data should be seeded to your db automatically.
     </li>
     <li>
         Startup the app, you should see swagger running on localhost:25398, you can test the endpoints straight from there. Authentication is implemented on swagger as well, and most of the endpoints are protected so you need to authenticate using /auth/login then paste the JWT token which you'll receive as a response. You can also register using /auth/register endpoint.
